@@ -31,3 +31,21 @@ main{
     top: 40px;
     border-radius: 8px;
 }
+#btn1{
+    margin-left: 5%;
+    background-color: hsl(204, 85.9%, 61.2%);
+    border: 0;
+}
+#btn2{
+    background-color: white;
+    border: 1px solid gray;
+}
+.btn{
+    margin-top: 2%;
+    padding: 5px 8px;
+    border-radius: 7px; 
+}
+hr{
+    color: #f6f8f9;
+    margin-top: 20px;
+}
