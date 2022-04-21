@@ -35,14 +35,16 @@ main{
     margin-left: 5%;
     background-color: hsl(204, 85.9%, 61.2%);
     border: 0;
+    color: white;
 }
 #btn2{
     background-color: white;
     border: 1px solid gray;
+    color: gray;
 }
 .btn{
     margin-top: 2%;
-    padding: 5px 8px;
+    padding: 5px 10px;
     border-radius: 7px; 
 }
 hr{
@@ -64,18 +66,49 @@ ul{
     color: green;
     border: 1px solid green;
     border-radius: 50%;
-    padding: 2px;
-    font-size: 5px;
+    padding: 4px;
+    font-size: 10px;
     vertical-align: middle;
 }
 .red{
     color: red;
     border: 1px solid red;
     border-radius: 50%;
-    padding: 2px;
+    padding: 4px;
     vertical-align: middle;
-    font-size: 5px;
+    font-size: 10px;
 }
 h2{
     margin-top: 20px;
+}
+.foot{
+    display: inline-block;
+    font-size: 10px;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+}
+#edit{
+    background-color: hsl(202.9, 79.7%, 59.4%);
+}
+#q1{
+    background-color: #9c72e4;
+}
+#rec{
+    background-color: #64c0a9;
+}
+#mob{
+    background-color: #f29e33;
+}
+#web{
+    background-color: #d863a1;
+}
+#sale{
+    background-color: #b0c926;
+}
+#no-foot{
+    margin-top: 17px;
+}
+li{
+    margin-top: 17px;
 }
