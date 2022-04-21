@@ -53,9 +53,29 @@ ul{
     list-style-type: none;
 }
 .main-list{
-    margin: 60px;
+    margin-left: 60px;
+    font-size: 20px;
 }
 .list{
     margin-top: 5px;
     margin-left: 10px;
+}
+.green{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 5px;
+    vertical-align: middle;
+}
+.red{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+    vertical-align: middle;
+    font-size: 5px;
+}
+h2{
+    margin-top: 20px;
 }
