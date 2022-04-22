@@ -7,6 +7,7 @@
     background-color: white;
     padding: 12px 17px;
     font-size: 23px;
+    font-family: sans-serif;
 }
 
 .header img{
@@ -18,18 +19,19 @@ h1{
     vertical-align: middle;
 }
 main{
-    width: 100vw;
-    height: 90vh;
     background-color: #f6f8f9;
+    padding-top: 20px;
+    padding-bottom: 220px;
 }
 .container{
     background-color: white;
-    width: 70%;
+    width: 65%;
     height: 93%;
     margin: auto;
     position: relative;
     top: 40px;
     border-radius: 8px;
+    padding-bottom: 30px;
 }
 #btn1{
     margin-left: 5%;
@@ -46,10 +48,7 @@ main{
     margin-top: 2%;
     padding: 5px 10px;
     border-radius: 7px; 
-}
-hr{
-    color: #f6f8f9;
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
 ul{
     list-style-type: none;
@@ -62,20 +61,22 @@ ul{
     margin-top: 5px;
     margin-left: 10px;
 }
+.icon{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .green{
     color: green;
-    border: 1px solid green;
-    border-radius: 50%;
-    padding: 4px;
-    font-size: 10px;
-    vertical-align: middle;
 }
 .red{
     color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    padding: 4px;
-    vertical-align: middle;
     font-size: 10px;
 }
 h2{
@@ -91,24 +92,27 @@ h2{
 .edit{
     background-color: hsl(202.9, 79.7%, 59.4%);
 }
-#q1{
+.q1{
     background-color: #9c72e4;
 }
-#rec{
+.rec{
     background-color: #64c0a9;
 }
-#mob{
+.mob{
     background-color: #f29e33;
 }
-#web{
+.web{
     background-color: #d863a1;
 }
-#sale{
+.sale{
     background-color: #b0c926;
 }
-#no-foot{
+.no-foot{
     margin-top: 17px;
 }
 li{
     margin-top: 17px;
+}
+.line{
+    border-bottom: 3px solid #f6f8f9;;
 }
